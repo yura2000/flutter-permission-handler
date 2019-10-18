@@ -115,26 +115,6 @@ class PermissionGroup {
   /// iOS: Microphone
   static const PermissionGroup microphone = PermissionGroup._(7);
 
-  /// Android: Phone
-  /// iOS: Nothing
-  static const PermissionGroup phone = PermissionGroup._(8);
-
-  /// Android: Nothing
-  /// iOS: Photos
-  static const PermissionGroup photos = PermissionGroup._(9);
-
-  /// Android: Nothing
-  /// iOS: Reminders
-  static const PermissionGroup reminders = PermissionGroup._(10);
-
-  /// Android: Body Sensors
-  /// iOS: CoreMotion
-  static const PermissionGroup sensors = PermissionGroup._(11);
-
-  /// Android: Sms
-  /// iOS: Nothing
-  static const PermissionGroup sms = PermissionGroup._(12);
-
   /// Android: Microphone
   /// iOS: Speech
   static const PermissionGroup speech = PermissionGroup._(13);
@@ -159,11 +139,6 @@ class PermissionGroup {
     locationWhenInUse,
     mediaLibrary,
     microphone,
-    phone,
-    photos,
-    reminders,
-    sensors,
-    sms,
     speech,
     storage,
     ignoreBatteryOptimizations,

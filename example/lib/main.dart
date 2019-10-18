@@ -23,25 +23,7 @@ class MyApp extends StatelessWidget {
           ],
         ),
         body: Center(
-          child: ListView(
-              children: PermissionGroup.values
-                  .where((PermissionGroup permission) {
-                    if (Platform.isIOS) {
-                      return permission != PermissionGroup.unknown &&
-                          permission != PermissionGroup.sms &&
-                          permission != PermissionGroup.storage &&
-                          permission !=
-                              PermissionGroup.ignoreBatteryOptimizations;
-                    } else {
-                      return permission != PermissionGroup.unknown &&
-                          permission != PermissionGroup.mediaLibrary &&
-                          permission != PermissionGroup.photos &&
-                          permission != PermissionGroup.reminders;
-                    }
-                  })
-                  .map((PermissionGroup permission) =>
-                      PermissionWidget(permission))
-                  .toList()),
+          child: Container(),
         ),
       ),
     );
