@@ -1,4 +1,4 @@
-## 3.2.2
+## 3.2.3
 
 * Fixed problem with dependency on specific version of gradle wrapper on Android.
 
