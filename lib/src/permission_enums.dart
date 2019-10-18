@@ -1,3 +1,7 @@
+import 'dart:io';
+
+import 'package:flutter/services.dart';
+
 /// Defines the state of a permission group
 class PermissionStatus {
   const PermissionStatus._(this.value);
@@ -85,39 +89,39 @@ class PermissionGroup {
 
   /// Android: Calendar
   /// iOS: Calendar (Events)
-  static const PermissionGroup calendar = PermissionGroup._(0);
+  static const PermissionGroup calendar = PermissionGroup._(3);
 
   /// Android: Camera
   /// iOS: Photos (Camera Roll and Camera)
-  static const PermissionGroup camera = PermissionGroup._(1);
+  static const PermissionGroup camera = PermissionGroup._(4);
 
   /// Android: Contacts
   /// iOS: AddressBook
-  static const PermissionGroup contacts = PermissionGroup._(2);
+  static const PermissionGroup contacts = PermissionGroup._(5);
 
   /// Android: Fine and Coarse Location
   /// iOS: CoreLocation (Always and WhenInUse)
-  static const PermissionGroup location = PermissionGroup._(3);
+  static const PermissionGroup location = PermissionGroup._(6);
 
   /// Android: Fine and Coarse Location
   /// iOS: CoreLocation - Always
-  static const PermissionGroup locationAlways = PermissionGroup._(4);
+  static const PermissionGroup locationAlways = PermissionGroup._(7);
 
   /// Android: Fine and Coarse Location
   /// iOS: CoreLocation - WhenInUse
-  static const PermissionGroup locationWhenInUse = PermissionGroup._(5);
+  static const PermissionGroup locationWhenInUse = PermissionGroup._(8);
 
   /// Android: None
   /// iOS: MPMediaLibrary
-  static const PermissionGroup mediaLibrary = PermissionGroup._(6);
+  static const PermissionGroup mediaLibrary = PermissionGroup._(0);
 
   /// Android: Microphone
   /// iOS: Microphone
-  static const PermissionGroup microphone = PermissionGroup._(7);
+  static const PermissionGroup microphone = PermissionGroup._(1);
 
   /// Android: Microphone
   /// iOS: Speech
-  static const PermissionGroup speech = PermissionGroup._(13);
+  static const PermissionGroup speech = PermissionGroup._(2);
 
   /// Android: External Storage
   /// iOS: Nothing
