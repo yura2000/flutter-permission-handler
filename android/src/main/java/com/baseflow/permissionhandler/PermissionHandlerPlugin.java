@@ -52,7 +52,7 @@ public class PermissionHandlerPlugin implements MethodCallHandler {
   private static final int PERMISSION_GROUP_CONTACTS = 5;
   private static final int PERMISSION_GROUP_LOCATION = 6;
   private static final int PERMISSION_GROUP_LOCATION_ALWAYS = 7;
-  private static final int PERMISSION_GROUP_LOCATION_WHEN_IN_USE = 7;
+  private static final int PERMISSION_GROUP_LOCATION_WHEN_IN_USE = 8;
   private static final int PERMISSION_GROUP_PHOTOS = 9;
   private static final int PERMISSION_GROUP_REMINDERS = 10;
   private static final int PERMISSION_GROUP_SENSORS = 11;
