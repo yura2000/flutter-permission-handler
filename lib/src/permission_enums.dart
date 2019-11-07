@@ -150,20 +150,20 @@ class PermissionGroup {
   ];
 
   static const List<String> _names = <String>[
+    'mediaLibrary',
+    'microphone',
+    'speech',
     'calendar',
     'camera',
     'contacts',
     'location',
     'locationAlways',
     'locationWhenInUse',
-    'mediaLibrary',
-    'microphone',
     'phone',
     'photos',
     'reminders',
     'sensors',
     'sms',
-    'speech',
     'storage',
     'ignoreBatteryOptimizations',
     'unknown',

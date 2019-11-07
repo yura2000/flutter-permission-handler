@@ -44,15 +44,15 @@ public class PermissionHandlerPlugin implements MethodCallHandler {
   private static final int PERMISSION_CODE_IGNORE_BATTERY_OPTIMIZATIONS = 5672353;
 
   //PERMISSION_GROUP
-  private static final int PERMISSION_GROUP_CALENDAR = 0;
-  private static final int PERMISSION_GROUP_CAMERA = 1;
-  private static final int PERMISSION_GROUP_CONTACTS = 2;
-  private static final int PERMISSION_GROUP_LOCATION = 3;
-  private static final int PERMISSION_GROUP_LOCATION_ALWAYS = 4;
-  private static final int PERMISSION_GROUP_LOCATION_WHEN_IN_USE = 5;
-  private static final int PERMISSION_GROUP_MEDIA_LIBRARY = 6;
-  private static final int PERMISSION_GROUP_MICROPHONE = 7;
-  private static final int PERMISSION_GROUP_PHONE = 8;
+  private static final int PERMISSION_GROUP_MEDIA_LIBRARY = 0;
+  private static final int PERMISSION_GROUP_MICROPHONE = 1;
+   private static final int PERMISSION_GROUP_PHONE = 2;
+  private static final int PERMISSION_GROUP_CALENDAR = 3;
+  private static final int PERMISSION_GROUP_CAMERA = 4;
+  private static final int PERMISSION_GROUP_CONTACTS = 5;
+  private static final int PERMISSION_GROUP_LOCATION = 6;
+  private static final int PERMISSION_GROUP_LOCATION_ALWAYS = 7;
+  private static final int PERMISSION_GROUP_LOCATION_WHEN_IN_USE = 7;
   private static final int PERMISSION_GROUP_PHOTOS = 9;
   private static final int PERMISSION_GROUP_REMINDERS = 10;
   private static final int PERMISSION_GROUP_SENSORS = 11;
@@ -68,10 +68,10 @@ public class PermissionHandlerPlugin implements MethodCallHandler {
 
   @Retention(RetentionPolicy.SOURCE)
   @IntDef({
-          PERMISSION_GROUP_MEDIA_LIBRARY,
-          PERMISSION_GROUP_MICROPHONE,
-          PERMISSION_GROUP_SPEECH,
-          PERMISSION_GROUP_CALENDAR,
+      PERMISSION_GROUP_MEDIA_LIBRARY,
+      PERMISSION_GROUP_MICROPHONE,
+      PERMISSION_GROUP_SPEECH,
+      PERMISSION_GROUP_CALENDAR,
       PERMISSION_GROUP_CAMERA,
       PERMISSION_GROUP_CONTACTS,
       PERMISSION_GROUP_LOCATION,
