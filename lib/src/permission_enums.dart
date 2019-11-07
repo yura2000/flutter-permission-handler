@@ -135,15 +135,15 @@ class PermissionGroup {
   static const PermissionGroup unknown = PermissionGroup._(16);
 
   static const List<PermissionGroup> values = <PermissionGroup>[
+    mediaLibrary,
+    microphone,
+    speech,
     calendar,
     camera,
     contacts,
     location,
     locationAlways,
     locationWhenInUse,
-    mediaLibrary,
-    microphone,
-    speech,
     storage,
     ignoreBatteryOptimizations,
     unknown,
