@@ -111,17 +111,13 @@ class PermissionGroup {
   /// iOS: CoreLocation - WhenInUse
   static const PermissionGroup locationWhenInUse = PermissionGroup._(8);
 
-  /// Android: None
-  /// iOS: MPMediaLibrary
-  static const PermissionGroup mediaLibrary = PermissionGroup._(0);
-
   /// Android: Microphone
   /// iOS: Microphone
-  static const PermissionGroup microphone = PermissionGroup._(1);
+  static const PermissionGroup microphone = PermissionGroup._(0);
 
   /// Android: Microphone
   /// iOS: Speech
-  static const PermissionGroup speech = PermissionGroup._(2);
+  static const PermissionGroup speech = PermissionGroup._(1);
 
   /// Android: External Storage
   /// iOS: Nothing
@@ -135,7 +131,6 @@ class PermissionGroup {
   static const PermissionGroup unknown = PermissionGroup._(16);
 
   static const List<PermissionGroup> values = <PermissionGroup>[
-    mediaLibrary,
     microphone,
     speech,
     calendar,
@@ -150,7 +145,6 @@ class PermissionGroup {
   ];
 
   static const List<String> _names = <String>[
-    'mediaLibrary',
     'microphone',
     'speech',
     'calendar',

@@ -6,7 +6,6 @@
 //
 
 typedef NS_ENUM(int, PermissionGroup) {
-    PermissionGroupMediaLibrary,
     PermissionGroupMicrophone,
     PermissionGroupSpeech,
     PermissionGroupUnknown,

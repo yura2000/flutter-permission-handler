@@ -75,8 +75,6 @@
 
 + (id)createPermissionStrategy:(PermissionGroup)permission {
     switch (permission) {
-            case PermissionGroupMediaLibrary:
-            return [MediaLibraryPermissionStrategy new];
             case PermissionGroupMicrophone:
             return [AudioVideoPermissionStrategy new];
             case PermissionGroupSpeech:
